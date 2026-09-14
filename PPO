@@ -1,0 +1,8 @@
+old_prob = 0.5
+new_prob = 0.6
+advantage = 2
+
+ratio = new_prob / old_prob
+loss = min(ratio * advantage, 1.2 * advantage)
+
+print("PPO Loss =", loss)
