@@ -1,0 +1,7 @@
+import random
+
+actions = ["Left", "Right", "Up"]
+
+plan = random.choice(actions)
+
+print("Selected Plan:", plan)
