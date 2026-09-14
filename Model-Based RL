@@ -1,0 +1,10 @@
+model = {
+    0: (1, 5),
+    1: (2, 10)
+}
+
+state = 0
+next_state, reward = model[state]
+
+print("Next State:", next_state)
+print("Reward:", reward)
