@@ -1,0 +1,8 @@
+state_value = 5
+reward = 10
+next_value = 8
+gamma = 0.9
+
+advantage = reward + gamma * next_value - state_value
+
+print("Advantage =", advantage)
