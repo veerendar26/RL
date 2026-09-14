@@ -1,0 +1,12 @@
+import numpy as np
+
+Q = np.zeros((2, 2))
+
+state = 0
+action = 1
+reward = 10
+next_state = 1
+
+Q[state, action] = reward + 0.9 * max(Q[next_state])
+
+print(Q)
