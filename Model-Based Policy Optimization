@@ -1,0 +1,5 @@
+rewards = [5, 10, 8]
+
+best_action = rewards.index(max(rewards))
+
+print("Best Action:", best_action)
