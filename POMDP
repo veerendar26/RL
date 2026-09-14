@@ -1,0 +1,11 @@
+observations = ["Good", "Bad"]
+
+observation = observations[0]
+
+if observation == "Good":
+    action = "Move"
+else:
+    action = "Stop"
+
+print("Observation:", observation)
+print("Action:", action)
