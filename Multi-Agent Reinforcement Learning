@@ -1,0 +1,6 @@
+agents = ["Agent1", "Agent2"]
+
+rewards = [10, 8]
+
+for agent, reward in zip(agents, rewards):
+    print(agent, "Reward:", reward)
