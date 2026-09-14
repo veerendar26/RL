@@ -1,0 +1,4 @@
+agents = 3
+
+for agent in range(agents):
+    print("Agent", agent + 1, "is learning")
