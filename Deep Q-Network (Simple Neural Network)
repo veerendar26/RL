@@ -1,0 +1,9 @@
+import tensorflow as tf
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(16, activation="relu"),
+    tf.keras.layers.Dense(2)
+])
+
+model.build((None, 4))
+model.summary()
