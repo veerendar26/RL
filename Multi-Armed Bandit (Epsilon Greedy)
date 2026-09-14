@@ -1,0 +1,12 @@
+import random
+
+rewards = [2, 5, 8]
+epsilon = 0.1
+
+if random.random() < epsilon:
+    action = random.randint(0, 2)
+else:
+    action = rewards.index(max(rewards))
+
+print("Action:", action)
+print("Reward:", rewards[action])
