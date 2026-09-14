@@ -1,0 +1,7 @@
+import numpy as np
+
+policy = [0.4, 0.6]
+
+action = np.random.choice([0, 1], p=policy)
+
+print("Selected Action:", action)
