@@ -1,0 +1,4 @@
+tasks = ["Move", "Pick", "Place"]
+
+for task in tasks:
+    print("Task:", task)
