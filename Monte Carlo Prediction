@@ -1,0 +1,5 @@
+rewards = [1, 2, 3, 4]
+
+return_value = sum(rewards)
+
+print("Monte Carlo Return =", return_value)
