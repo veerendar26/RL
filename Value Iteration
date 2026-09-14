@@ -1,0 +1,8 @@
+V = [0, 0, 0]
+gamma = 0.9
+
+for i in range(5):
+    V[1] = 5 + gamma * V[2]
+    V[0] = 10 + gamma * V[1]
+
+print(V)
