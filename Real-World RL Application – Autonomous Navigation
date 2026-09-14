@@ -1,0 +1,8 @@
+position = 0
+goal = 5
+
+while position < goal:
+    position += 1
+    print("Rover Position:", position)
+
+print("Goal Reached!")
