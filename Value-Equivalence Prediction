@@ -1,0 +1,6 @@
+real_value = 10
+predicted_value = 9
+
+error = abs(real_value - predicted_value)
+
+print("Prediction Error =", error)
