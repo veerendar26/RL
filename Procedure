@@ -8,6 +8,9 @@ Initialize the agent and starting state.
 Select an action and execute it.
 Observe the next state and reward.
 Repeat the process and display the results.
+
+
+
 Experiment 2 – Markov Decision Process
 Procedure:
 Define the states and possible actions.
@@ -16,6 +19,8 @@ Initialize the agent in a starting state.
 Select an action according to a policy.
 Move to the next state and receive the reward.
 Repeat the state-action process and analyze the policy.
+
+
 Experiment 3 – Bellman Equation
 Procedure:
 Initialize the value of each state.
@@ -24,6 +29,8 @@ Apply the Bellman equation.
 Update the state values iteratively.
 Continue until the values converge.
 Display the final value function.
+
+
 Experiment 4 – Multi-Armed Bandit
 Procedure:
 Create multiple actions/arms with different rewards.
@@ -32,6 +39,9 @@ Select an action using ε-Greedy, UCB, or Softmax.
 Receive the reward.
 Update the estimated action value.
 Repeat and compare exploration and exploitation.
+
+
+
 UNIT II – Tabular Methods and Q-Networks
 Experiment 5 – Policy Iteration and Value Iteration
 Procedure:
@@ -41,6 +51,9 @@ Perform policy evaluation or value updates.
 Improve the policy using the calculated values.
 Repeat until the policy becomes stable.
 Display the optimal policy.
+
+
+
 Experiment 6 – Monte Carlo
 Procedure:
 Initialize the policy and value function.
@@ -49,6 +62,9 @@ Calculate the return from the collected rewards.
 Update the value of visited states.
 Repeat for multiple episodes.
 Display the learned value function/policy.
+
+
+
 Experiment 7 – TD(0), SARSA and Q-Learning
 Procedure:
 Initialize the Q-table.
@@ -58,6 +74,9 @@ Execute the action and observe reward and next state.
 Update the Q-value using TD, SARSA, or Q-Learning.
 Repeat until learning is completed.
 Display the learned Q-table.
+
+
+
 Experiment 8 – DQN, Double DQN and Dueling DQN
 Procedure:
 Create the RL environment.
@@ -67,6 +86,9 @@ Store experiences in replay memory.
 Train the network using sampled experiences.
 Use a target network for stable learning.
 Evaluate and compare DQN, Double DQN, and Dueling DQN.
+
+
+
 UNIT III – Policy Optimization
 Experiment 9 – REINFORCE
 Procedure:
@@ -77,6 +99,9 @@ Calculate the total return.
 Compute the policy gradient.
 Update the policy parameters.
 Repeat until the policy improves.
+
+
+
 Experiment 10 – A2C
 Procedure:
 Create the Actor and Critic networks.
@@ -86,6 +111,9 @@ Calculate the state value using the Critic.
 Calculate the advantage.
 Update both Actor and Critic.
 Repeat training and evaluate performance.
+
+
+
 Experiment 11 – A3C
 Procedure:
 Create multiple worker agents.
@@ -95,6 +123,9 @@ Calculate gradients from collected experiences.
 Update the shared network asynchronously.
 Continue until convergence.
 Compare the learning performance.
+
+
+
 Experiment 12 – PPO
 Procedure:
 Initialize the policy and value networks.
@@ -104,6 +135,9 @@ Calculate the probability ratio between old and new policies.
 Apply PPO clipping.
 Update the policy and value networks.
 Evaluate the trained policy.
+
+
+
 UNIT IV – Model-Based Reinforcement Learning
 Experiment 13 – Model-Based RL
 Procedure:
@@ -114,6 +148,10 @@ Use the learned model to predict future states.
 Plan actions using the predictions.
 Execute the selected action.
 Evaluate the agent's performance.
+
+
+
+
 Experiment 14 – Sampling-Based Planning
 Procedure:
 Define the initial state and goal.
@@ -123,6 +161,9 @@ Calculate the expected reward of each sequence.
 Select the sequence with the highest reward.
 Execute the best action.
 Repeat until the goal is reached.
+
+
+
 Experiment 15 – Model-Based Policy Optimization
 Procedure:
 Initialize the environment model and policy.
@@ -132,6 +173,9 @@ Generate simulated experiences.
 Optimize the policy using simulated data.
 Test the policy in the real environment.
 Compare sample efficiency with model-free RL.
+
+
+
 Experiment 16 – Value-Equivalence Prediction
 Procedure:
 Define the environment and value function.
@@ -141,6 +185,10 @@ Compare predicted and actual values.
 Calculate prediction error.
 Update the model/value function.
 Repeat until prediction accuracy improves.
+
+
+
+
 UNIT V – Recent Advances and Applications
 Experiment 17 – Hierarchical RL using MAXQ
 Procedure:
@@ -151,6 +199,10 @@ Learn policies for individual sub-tasks.
 Combine the sub-task policies.
 Execute the complete task.
 Evaluate the performance.
+
+
+
+
 Experiment 18 – Multi-Agent RL
 Procedure:
 Create multiple agents in the environment.
@@ -160,6 +212,10 @@ Agents learn from their experiences.
 Update their policies.
 Repeat the training process.
 Evaluate cooperation or competition between agents.
+
+
+
+
 Experiment 19 – POMDP
 Procedure:
 Define the partially observable environment.
@@ -169,6 +225,11 @@ Select an action using the available observation.
 Receive a new observation and reward.
 Update the belief/state estimate.
 Repeat and evaluate decision-making.
+
+
+
+
+
 Experiment 20 – Real-World RL Application
 Your syllabus specifies applications such as autonomous navigation, game playing, robotic control, resource allocation, and traffic signal optimization. �
 MLA03 Lab Experiment Question.docx
