@@ -1,0 +1,182 @@
+
+UNIT I – Foundations
+Experiment 1 – Basic RL Environment
+Procedure:
+Import the required Python libraries.
+Create an RL environment with states and actions.
+Initialize the agent and starting state.
+Select an action and execute it.
+Observe the next state and reward.
+Repeat the process and display the results.
+Experiment 2 – Markov Decision Process
+Procedure:
+Define the states and possible actions.
+Define the transition and reward information.
+Initialize the agent in a starting state.
+Select an action according to a policy.
+Move to the next state and receive the reward.
+Repeat the state-action process and analyze the policy.
+Experiment 3 – Bellman Equation
+Procedure:
+Initialize the value of each state.
+Define the rewards and discount factor.
+Apply the Bellman equation.
+Update the state values iteratively.
+Continue until the values converge.
+Display the final value function.
+Experiment 4 – Multi-Armed Bandit
+Procedure:
+Create multiple actions/arms with different rewards.
+Initialize the action-value estimates.
+Select an action using ε-Greedy, UCB, or Softmax.
+Receive the reward.
+Update the estimated action value.
+Repeat and compare exploration and exploitation.
+UNIT II – Tabular Methods and Q-Networks
+Experiment 5 – Policy Iteration and Value Iteration
+Procedure:
+Define the states, actions, rewards, and transitions.
+Initialize the value function and policy.
+Perform policy evaluation or value updates.
+Improve the policy using the calculated values.
+Repeat until the policy becomes stable.
+Display the optimal policy.
+Experiment 6 – Monte Carlo
+Procedure:
+Initialize the policy and value function.
+Generate a complete episode.
+Calculate the return from the collected rewards.
+Update the value of visited states.
+Repeat for multiple episodes.
+Display the learned value function/policy.
+Experiment 7 – TD(0), SARSA and Q-Learning
+Procedure:
+Initialize the Q-table.
+Start the agent from an initial state.
+Select an action using an exploration strategy.
+Execute the action and observe reward and next state.
+Update the Q-value using TD, SARSA, or Q-Learning.
+Repeat until learning is completed.
+Display the learned Q-table.
+Experiment 8 – DQN, Double DQN and Dueling DQN
+Procedure:
+Create the RL environment.
+Build a neural network to estimate Q-values.
+Collect experiences from the environment.
+Store experiences in replay memory.
+Train the network using sampled experiences.
+Use a target network for stable learning.
+Evaluate and compare DQN, Double DQN, and Dueling DQN.
+UNIT III – Policy Optimization
+Experiment 9 – REINFORCE
+Procedure:
+Define the environment and policy network.
+Initialize the policy parameters.
+Generate an episode using the current policy.
+Calculate the total return.
+Compute the policy gradient.
+Update the policy parameters.
+Repeat until the policy improves.
+Experiment 10 – A2C
+Procedure:
+Create the Actor and Critic networks.
+Initialize their parameters.
+Select actions using the Actor.
+Calculate the state value using the Critic.
+Calculate the advantage.
+Update both Actor and Critic.
+Repeat training and evaluate performance.
+Experiment 11 – A3C
+Procedure:
+Create multiple worker agents.
+Give each worker a copy of the environment.
+Each worker interacts with the environment.
+Calculate gradients from collected experiences.
+Update the shared network asynchronously.
+Continue until convergence.
+Compare the learning performance.
+Experiment 12 – PPO
+Procedure:
+Initialize the policy and value networks.
+Collect experiences using the current policy.
+Calculate rewards and advantages.
+Calculate the probability ratio between old and new policies.
+Apply PPO clipping.
+Update the policy and value networks.
+Evaluate the trained policy.
+UNIT IV – Model-Based Reinforcement Learning
+Experiment 13 – Model-Based RL
+Procedure:
+Initialize the environment.
+Collect state, action, reward, and next-state data.
+Learn the environment dynamics.
+Use the learned model to predict future states.
+Plan actions using the predictions.
+Execute the selected action.
+Evaluate the agent's performance.
+Experiment 14 – Sampling-Based Planning
+Procedure:
+Define the initial state and goal.
+Generate possible action sequences.
+Simulate the sequences using the environment model.
+Calculate the expected reward of each sequence.
+Select the sequence with the highest reward.
+Execute the best action.
+Repeat until the goal is reached.
+Experiment 15 – Model-Based Policy Optimization
+Procedure:
+Initialize the environment model and policy.
+Collect real environment experiences.
+Train the model using collected data.
+Generate simulated experiences.
+Optimize the policy using simulated data.
+Test the policy in the real environment.
+Compare sample efficiency with model-free RL.
+Experiment 16 – Value-Equivalence Prediction
+Procedure:
+Define the environment and value function.
+Collect state-action experiences.
+Predict future values using the learned model.
+Compare predicted and actual values.
+Calculate prediction error.
+Update the model/value function.
+Repeat until prediction accuracy improves.
+UNIT V – Recent Advances and Applications
+Experiment 17 – Hierarchical RL using MAXQ
+Procedure:
+Define the main task.
+Divide the task into smaller sub-tasks.
+Create a hierarchy using the MAXQ framework.
+Learn policies for individual sub-tasks.
+Combine the sub-task policies.
+Execute the complete task.
+Evaluate the performance.
+Experiment 18 – Multi-Agent RL
+Procedure:
+Create multiple agents in the environment.
+Define their states, actions, and rewards.
+Allow the agents to interact with the environment.
+Agents learn from their experiences.
+Update their policies.
+Repeat the training process.
+Evaluate cooperation or competition between agents.
+Experiment 19 – POMDP
+Procedure:
+Define the partially observable environment.
+Define possible states, actions, and observations.
+Initialize the agent's belief about the environment.
+Select an action using the available observation.
+Receive a new observation and reward.
+Update the belief/state estimate.
+Repeat and evaluate decision-making.
+Experiment 20 – Real-World RL Application
+Your syllabus specifies applications such as autonomous navigation, game playing, robotic control, resource allocation, and traffic signal optimization. �
+MLA03 Lab Experiment Question.docx
+Procedure:
+Define the real-world problem and goal.
+Identify the states, actions, and rewards.
+Prepare or collect the required data/environment.
+Select and implement an RL algorithm.
+Train the agent through repeated interactions.
+Evaluate the agent using suitable reward/performance metrics.
+Analyze the results and conclude the performance.
